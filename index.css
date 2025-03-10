@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    background-color: rgb(13, 17, 23);
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+body{
+    background-color: rgb(13, 17, 23);
+    color: azure;
+    font-family: roboto, kumbh-sans, sans-serif;
+}
+.bio{
+    display: flex;
+    justify-content: space-evenly;
+    
+    img{
+        width: 20rem;
+        height: 25rem;
+        object-fit: cover;
+        border-radius: 2rem 2rem;
+    } 
+}
+
+video{
+    display: flex;
+    border-radius: 1rem 1rem;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;  
+    position: absolute;
+    left: 62rem;
+}
+
+.contact{
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    justify-content: space-evenly;
+    padding: 5rem;
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    input{
+        width: 17rem;
+        height: 1.5rem;
+        border-radius: 0.5rem 0.5rem;
+    }
+
+}

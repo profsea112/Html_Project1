@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <br /><br />
+    <main>
+      <section class="bio">
+        <img src="stan.jpg" alt="image" />
+        <div style="padding: 2rem 3rem">
+          <h2 id="about">About Me</h2>
+          <p style="display: flex; flex-direction: column">
+            My name is Stanley Emmanuel Agbeso, a native of ubiaja, Edo state. I
+            am an Electrical Electronics Engineering graduate of The African
+            University of Technology and Management, Benin Republic. I am
+            currently a MERN Stack developer and owner of STANGADGETS(an
+            e-gadget store). I am an introvert but I enjoy being outside just
+            soaking in nature. I live by my motto "Live, Laugh and Love"
+          </p>
+        </div>
+      </section>
+
+      <section style="padding: 5rem 0">
+        <video src="stannvid.mp4" controls></video>
+        <h2 id="work">Work Experience</h2>
+        <p>
+          I worked at IITA(International Institute of Tropical Agriculture) in
+          2020 as a contract staff in their IGH Office, ikeja <br />
+          I then worked remotely at OAK Business world in 2021-2022 as a tech
+          support staff <br />
+          I Started STANGADGETS in 2021 as an e-gadget store for customer
+          convenience and we are operational till date
+        </p>
+      </section>
+
+      <section>
+        <h2 id="resume">My Resume</h2>
+        <ul>
+          <li><strong>High School:</strong> Praiseland College 2008-2014</li>
+          <li>
+            <strong>University:</strong>
+            African University of Technology and Management, Benin Republic
+            2014-2018
+          </li>
+          <li>
+            <strong>NYSC:</strong> Registrar's office, Osun State University
+            2018-2019
+          </li>
+          <li>IITA 2020 (worked as a contract staff in IGH Office, ikeja)</li>
+          <li>OAK Business world 2021-2022(worked as tech support staff)</li>
+          <li>STANGADGETS 2021 till date</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="contact">
+          <h2 id="contact">Contact Us</h2>
+          <form>
+            <label for="fname">First name:</label><br />
+            <input type="text" name="firstname" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" name="lastname" /><br />
+            <label for="num">Phone Number:</label><br />
+            <input type="number" name="Phonenumber" /><br />
+            <label for="email">Email:</label><br />
+            <input type="text" name="email" /><br /><br />
+            <input
+              type="submit"
+              value="Submit"
+              style="
+                width: 8rem;
+                height: 2rem;
+                border-radius: 5px;
+                background-color: blueviolet;
+              "
+            /><br />
+          </form>
+        </div>
+      </section>
+    </main>
+    <br />
+    <a href="index.html" style="display: flex; justify-content: center"
+      >Back to Homepage</a
+    >
+    <br />
+    <br />
+    <br />
+    <footer style="display: flex; justify-content: center">
+      Created by StanDev &copy2025
+    </footer>
+  </body>
+</html>
