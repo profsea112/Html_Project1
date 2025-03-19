@@ -8,6 +8,7 @@ nav{
     font-weight: bold;
 
 }
+
 body{
     background-color: rgb(13, 17, 23);
     color: azure;
@@ -23,6 +24,7 @@ body{
         height: 25rem;
         object-fit: cover;
         border-radius: 2rem 2rem;
+        
     } 
 }
 
@@ -38,6 +40,7 @@ video{
 
 .contact{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(61, 61, 61);
     justify-content: space-evenly;
     padding: 5rem;
@@ -48,6 +51,8 @@ video{
     }
 
     input{
+        display: flex;
+        flex-direction: column;
         width: 17rem;
         height: 1.5rem;
         border-radius: 0.5rem 0.5rem;
